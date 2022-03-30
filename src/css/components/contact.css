@@ -1,12 +1,66 @@
-.contact {
-    margin: 0 var(--space)
+
+
+
+h1{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 20px;
+    
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+    margin-top: 200px;
+    margin-bottom: 50px;
 }
 
-.contact__subTitle {
-    padding-left: 0;
+h2 {
+    font-family: 'Montserrat';
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
 }
 
-.contact div + h2 {
-    margin-top: 15%;
+p{
+    font-family: 'Montserrat';
+font-weight: 200;
+font-size: 12px;
+line-height: 20px;
+
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
 }
 
+.mentions1{
+    width:228px;
+}
+.mentions3{
+    width:265px;
+}
+.mentions5{
+    width:250px;
+}
+.mentionsghost{
+    width:300px;
+}
+
+
+.contact_firstline{
+    display:flex;
+ 
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.contact_secondline{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 20px;
+}

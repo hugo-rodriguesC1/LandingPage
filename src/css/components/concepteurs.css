@@ -1,0 +1,45 @@
+h1{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 20px;
+    
+    letter-spacing: 0.05em;
+    
+    color: #FFFFFF;
+    margin-top: 200px;
+    margin-bottom: 50px;
+}
+h2{
+font-family: 'Montserrat';
+font-weight: 500;
+font-size: 20px;
+line-height: 29px;
+letter-spacing: 0.05em;
+
+color: #FFFFFF;
+}
+
+.nameline{
+    display:flex;
+ 
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+.box {
+    height:5vh;
+    width: 5vw;
+    border-width: 10px;
+    border-color: #FFFFFF;
+    z-index: 10;
+}
+
+.boxline{
+    display:flex;
+ z-index: 10;
+    justify-content: space-between;
+    margin-left: 150px;
+    margin-right: 150px;
+}

@@ -35,4 +35,22 @@
     color: var(--grey--4);
 }
 
+.menu__list li:nth-child(3) {
+    width: 12.7vw;
+    height: 6vh;
+    background-color: var(--red--3);
+    z-index: 2;
+    display: flex;
+    margin-top: auto;
+    margin-bottom: auto;
+    align-items: center;
+    justify-content: center;
+}
 
+.menu__list li:nth-child(3) a {
+    display: flex;
+}
+
+.menu__list li:nth-child(3) a h3 {
+    color: var(--grey--1);
+}
