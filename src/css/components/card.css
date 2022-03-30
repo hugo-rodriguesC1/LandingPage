@@ -1,0 +1,37 @@
+.card {
+    display: flex;
+    flex-direction: row;
+    margin-right: auto;
+    margin-left: auto;
+    justify-content: space-between;
+}
+
+.card__text {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15vh;
+}
+
+.card__left {
+    display: flex;
+    margin-left: 12vw;
+}
+
+.card__right {
+    display: flex;
+    margin-right: 12vw;
+}
+
+.card__text p {
+    max-width: 35vw;
+}
+
+.card__smallr {
+    max-width: 27vw;
+    margin-top: 5vh;
+}
+
+.card__alt {
+    gap: 5vw;
+    margin-top: 10vh;
+}
