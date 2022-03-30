@@ -1,45 +1,22 @@
-h1{
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 32px;
-    line-height: 20px;
-    
-    letter-spacing: 0.05em;
-    
-    color: #FFFFFF;
-    margin-top: 200px;
-    margin-bottom: 50px;
-}
-h2{
-font-family: 'Montserrat';
-font-weight: 500;
-font-size: 20px;
-line-height: 29px;
-letter-spacing: 0.05em;
-
-color: #FFFFFF;
-}
-
-.nameline{
+.concepteurs__container {
     display:flex;
- 
     justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
-}
-
-.box {
-    height:5vh;
-    width: 5vw;
-    border-width: 10px;
-    border-color: #FFFFFF;
+    margin-left: 12vw;
+    margin-right: 12vw;
     z-index: 10;
 }
 
-.boxline{
-    display:flex;
- z-index: 10;
-    justify-content: space-between;
-    margin-left: 150px;
-    margin-right: 150px;
+.concepteurs__title {
+    font-size: var(--h2);
+    text-transform: uppercase;
+    text-align: center;
 }
+
+.concepteurs__name {
+    text-align: center;
+    font-size: var(--t-l);
+    display: flex;
+}
+
+
+

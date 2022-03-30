@@ -1,38 +1,24 @@
-
-
-
 h1{
-    font-family: 'Montserrat';
     font-weight: 900;
-    font-size: 32px;
+    font-size: var(--h2);
     line-height: 20px;
-    
+    text-transform: uppercase;
     letter-spacing: 0.05em;
-    
-    color: #FFFFFF;
-    margin-top: 200px;
-    margin-bottom: 50px;
+    color: var(--grey--1);
+    margin-top: 25vh;
+    margin-bottom: 8vh;
 }
 
 h2 {
-    font-family: 'Montserrat';
-font-weight: 500;
-font-size: 20px;
-line-height: 29px;
-letter-spacing: 0.05em;
-
-color: #FFFFFF;
+    font-weight: 400;
+    font-size: var(--t-l);
+    color: var(--grey--1);
 }
 
 p{
-    font-family: 'Montserrat';
-font-weight: 200;
-font-size: 12px;
-line-height: 20px;
-
-letter-spacing: 0.05em;
-
-color: #FFFFFF;
+    font-weight: 300;
+    font-size: var(--ps);
+    color: var(--grey--1);
 }
 
 .mentions1{
@@ -48,19 +34,17 @@ color: #FFFFFF;
     width:300px;
 }
 
-
 .contact_firstline{
     display:flex;
- 
     justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 12vw;
+    margin-right: 12vw;
 }
 
 .contact_secondline{
     display:flex;
     justify-content: space-between;
-    margin-left: 50px;
-    margin-right: 50px;
-    margin-top: 20px;
+    margin-left: 12vw;
+    margin-right: 12vw;
+    margin-top: 8vh;
 }
