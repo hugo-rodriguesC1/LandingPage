@@ -1,0 +1,32 @@
+.ill1 {
+    max-width: 25vw;
+    margin-top: 10vh;
+  }
+  
+  .ill2 {
+    max-width: 30vw;
+    margin-top: -14vh;
+  }
+  
+  .ill3 {
+    max-width: 40vw;
+  }
+  
+  .ill4 {
+    max-width: 50vw;
+    margin-top: 15vh;
+  }
+  
+  .ill5 {
+    max-width: 40vw;
+    margin-top: 15vh;
+  }
+
+.logo-xl {
+    text-align: center;
+}
+  
+  .logo-xl img {
+    max-width: 20vw;
+    margin-top: 15vh;
+  }

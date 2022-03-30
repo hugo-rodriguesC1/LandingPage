@@ -33,8 +33,9 @@
     width: 56px;
     height: 26px;
     position: absolute;
-    top: 793px;
-    left: 159px;
+    top: 105vh;
+    left: 0;
+    right: 0;
     z-index: -1;
 }
 
@@ -69,4 +70,11 @@
     right: 0;
     text-align: center;
     margin-top: 90vh;
+    animation: cchange 2s infinite ease-in
+}
+
+@keyframes cchange {
+    0% {opacity: 100%;}
+    50% {opacity: 0%;}
+    100% {opacity: 100%;}
 }
