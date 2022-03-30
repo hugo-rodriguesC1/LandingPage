@@ -3,6 +3,22 @@
 *::after {
   box-sizing: border-box;
 }
+
+body {
+  font-family: var(--font);
+  background-color: var(--black);
+}
+
 .listUnstyled {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
   text-decoration: none;
+}
+
+.ill1{
+  max-width: 38.6vw;
 }

@@ -1,31 +1,31 @@
-.hero__header {
-    height: 100vh;
-    color: var(--grey--1);
-    display: flex;
-    flex-direction: column;
-}
-
 .hero__title {
-    font-size: var(--t);
-    font-weight: 300;
-    line-height: 5.19rem;
-    padding-top: 4vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
-    margin-right: 0;
+    margin-top: 23vh;
+    color: var(--red--2);
+    font-weight: 900;
+    font-size: var(--h1);
+    text-transform: uppercase;
+    z-index: 2;
 }
 
 .hero__tagline {
-    font-family: var(--font-serif);
-    font-size: var(--h3);
-    color: var(--design--1);
-    font-weight: 600;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
     text-align: center;
-    position: relative;
-    top: -32px;
+    margin-top: 40vh;
+    font-weight: 400;
+    color: var(--black);
+    z-index: 2;
 }
 
-.title__redLetter {
-    color: var(--design--1);
+.hero__illu img {
+    max-width: 100%;
 }
 
 .hero__repere {
@@ -37,43 +37,35 @@
     z-index: -1;
 }
 
+.hero__button{
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    width: 15.6vw;
+    height: 7.4vh;
+    background-color: var(--red--3);
+    margin-top: 78.5vh;
+    z-index: 2;
+    display: flex;
+    justify-self: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.hero__button a {
+    font: 400 var(--t-l);
+    color: var(--white);
+    display: flex;
+    align-self: center;
+}
+
 .hero__swipe {
-    font-family: var(--font-sans-serif2);
-    font-weight: lighter;
-    font-size: var(--st);
-    color: var(--grey--1);
-    z-index: 0;
     position: absolute;
-    top: 90vh;
-    left: 46%;
-}
-
-.hero__line {
-    width: 87.47px;
-    height: 24.72px;
-    z-index: 0;
-    position: absolute;
-    top: 93vh;
-    left: 46%;
-}
-
-.hero__line::after, 
-.hero__line::before {
-    content: "";
-    width: 50px;
-    height: 1px;
-    background-color: var(--grey--1);
-    position: absolute;
-}
-
-.hero__line::after {
-    top: 0.875rem;
-    left: -2.0625rem;
-    transform: rotate(29.62deg);
-}
-
-.hero__line::before {
-    top: 0.875rem;
-    left: 0.6875rem;
-    transform: rotate(-29.62deg);
+    top: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    margin-top: 90vh;
 }
