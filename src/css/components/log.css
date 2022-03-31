@@ -1,0 +1,27 @@
+.log {
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 17vw;
+    margin-left: 17vw;
+    margin-top: 15vh;
+    }
+
+.log__register, .log__login {
+    max-width: 30vw;
+}
+
+.radial__bg {
+    background: radial-gradient(at 75vw 75vh, var(--red--3), var(--grey--5));
+    width: 100%;
+}
+
+.radial {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 125vh;
+    background: radial-gradient(circle at 20vw 75vh, var(--orange) 0%, transparent 35%);
+    z-index: -1;
+}
