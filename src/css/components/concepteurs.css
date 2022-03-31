@@ -1,22 +1,54 @@
+.concepteurs {
+    margin-top: 20vh;
+}
+
 .concepteurs__container {
     display:flex;
     justify-content: space-between;
     margin-left: 12vw;
     margin-right: 12vw;
-    z-index: 10;
 }
 
 .concepteurs__title {
     font-size: var(--h2);
     text-transform: uppercase;
     text-align: center;
+    color: var(--grey--1);
 }
 
 .concepteurs__name {
     text-align: center;
     font-size: var(--t-l);
     display: flex;
+    margin-top: 10vh;
+    width: 15vw;
 }
 
+.concepteurs__icon {
+    max-width: 15vw;
+    display: flex;
+}
+
+.concepteurs__fonc {
+    display: flex;
+    text-align: center;
+    justify-self: center;
+    width: 5vw;
+}
+
+.concepteurs__containeralt {
+    display:flex;
+    justify-content: space-between;
+    margin-left: 16vw;
+    margin-right: 16vw;
+}
+
+.concepteurs__mail {
+    display: flex;
+    justify-self: center;
+    color: var(--grey--2);
+    text-decoration: underline;
+    width: 5vw;
+}
 
 
