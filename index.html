@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,101 +8,122 @@
     <title>ArtVault</title>
     <link rel="stylesheet" href="src/css/style.css">
     <script defer="" src="https://unpkg.com/alpinejs@3.4.2/dist/cdn.min.js"></script>
-    <link rel="icon" type="image/svg" href="public/icon/Logo-s.svg"/>
+    <link rel="icon" type="image/svg" href="public/logo.svg" />
 </head>
+
 <body>
 
     <header class="header">
         <a class="header__logo" href="/">
-            <img src="public/icon/Logo-s.svg" alt="Logo du site">
+            <img src="public/icon/logo.svg" alt="Logo du site">
         </a>
         <nav class="header__menu menu">
             <ul class="menu__list listUnstyled">
-                <li class="menu__item"><a class="menu__link" href="/"><h3 class="menu__title">Accueil</h3></a></li>
-                <li class="menu__item"><a class="menu__link" href="contact.html"><h3 class="menu__title">Contact</h3></a></li>
-                <li class="menu__item"><a class="menu__link connect" href="connect.html"><h3 class="menu__title">Se connecter</h3></a></li>
+                <li class="menu__item"><a class="menu__link" href="/">
+                        <h3 class="menu__title">Accueil</h3>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link" href="contact.html">
+                        <h3 class="menu__title">Contact</h3>
+                    </a></li>
+                <li class="menu__item"><a class="menu__link connect" href="connect.html">
+                        <h3 class="menu__title">Se connecter</h3>
+                    </a></li>
             </ul>
         </nav>
     </header>
 
-    <main >
+    <main>
         <div class="hero container">
             <div class="hero__header">
-                <h1 class="hero__title title">ArtVault</h1>
+                <h1 class="hero__title title">Muse'Aic</h1>
                 <p class="hero__tagline">Imagine, créer et personnalise ton musée virtuel</p>
             </div>
-            
+
             <a class="hero__swipe" href="#repere">
                 <img src="public/icon/Swipe.svg" alt="icone de swipe">
             </a>
-            
+
             <div class="hero__illu">
-                <img src="public/img/illustration0.webp" alt="image de musée">
+                <img src="public/img/illustration0.png" alt="image de musée">
             </div>
 
             <div class="hero__button"><a href="connect.html">Rejoindre</a></div>
             <div id="repere" class="hero__repere"></div>
         </div>
 
-        <div class="card">
-            <img class="card__left ill1" src="public/img/illustration1.webp" alt="illustration d'un musée">
-            <div class="card__text card__right">
+
+        <div class="row first">
+            <img src="/public/img/ill1.png" alt="illustration et item">
+            <div class="col">
                 <h2>Votre musée personnel</h2>
-                <p>Créez, imaginez et personnalisez votre propre pièce de musée. Développez votre imagination, affirmez votre style et laissez place à votre créativité. Grâce aux nombreuses oeuvres et items disponibles, décorez votre mur librement dans ArtVault.</p>
+                <p>Créez, imaginez et personnalisez votre propre pièce de musée. Développez votre imagination, affirmez
+                    votre style et laissez place à votre créativité. Grâce aux nombreuses oeuvres et items disponibles,
+                    décorez votre mur librement dans ArtVault.</p>
             </div>
         </div>
 
-        <div class="card">
-            <div class="card__text card__left">
+
+        <div class="row">
+            <div class="col">
                 <h2>Espace de partage</h2>
-                <p>Partagez votre musée aux autres utilisateurs et visitez leurs pièces. Réagissez, commentez et partagez autour des créations de chacun. Inspirez vous des murs de la communauté et développez toujours plus votre imagination.</p>
+                <p>Partagez votre musée aux autres utilisateurs et visitez leurs pièces. Réagissez, commentez et
+                    partagez autour des créations de chacun. Inspirez vous des murs de la communauté et développez
+                    toujours plus votre imagination.</p>
             </div>
-            <img class="card__right ill2" src="public/img/illustration2.webp" alt="illustration d'un musée">
+            <img src="/public/img/ill2.png" alt="illustration et item">
         </div>
 
-        <div class="card">
-            <img class="card__left ill3" src="public/img/illustration3.webp" alt="illustration d'un musée">
-            <div class="card__text card__right card__smallr">
+
+
+        <div class="row">
+            <img src="/public/img/ill3.png" alt="illustration et item">
+            <div class="col">
                 <h2>Une création sans limite</h2>
-                <p>Vous cherchez à intégrer votre œuvre ou vos propres items de personnalisation ? Uploadez les et utilisez les dans votre espace. Mettez les à disposition des autres utilisateurs gratuitement ou fixez votre prix pour chaque achat.</p>
+                <p>Vous cherchez à intégrer votre œuvre ou vos propres items de personnalisation ? Uploadez les
+                    et
+                    utilisez les dans votre espace. Mettez les à disposition des autres utilisateurs
+                    gratuitement ou
+                    fixez votre prix pour chaque achat.</p>
             </div>
         </div>
 
         <div class="icon">
-                <div class="icon__container">
-                    <img class="icon__img" src="public/icon/Icon1.svg" alt="">
-                    <img class="icon__img" src="public/icon/Icon3.svg" alt="">
-                    <img class="icon__img" src="public/icon/Icon2.svg" alt="">
-                </div>
+            <div class="icon__container">
+                <img class="icon__img" src="public/icon/Icon1.svg" alt="">
+                <img class="icon__img" src="public/icon/Icon3.svg" alt="">
+                <img class="icon__img" src="public/icon/Icon2.svg" alt="">
+            </div>
 
-                <div class="icon__container">
-                    <p class="icon__txt"><span class="icon__bold">Exposez</span> vos oeuvres dans votre propre <span class="icon__bold">salle de musée</span> entièrement <span class="icon__bold">personnalisable</span> : jouez avec les meubles, les fonds, les décorations ou encore les familiers pour créer une ambiance propre à vous et <span class="icon__bold">vous démarquer des autres artistes&nbsp!</span></p>
-                    <p class="icon__txt">Achetez des oeuvres dans la <span class="icon__bold">boutique communautaire</span> : exposez les dans votre salle de musée, ou <span class="icon__bold">vendez</span> vos propres créations pour générer un <span class="icon__bold">profit</span> qui vous permettra d’<span class="icon__bold">acheter des items ou d’autres oeuvres</span>, profitez-en !</p>
-                    <p class="icon__txt"><span class="icon__bold">Découvrez</span> une infinité de <span class="icon__bold">musées</span> créés par la communauté ; <span class="icon__bold">voyagez</span> dans des ambiances et des environnements différents pour mieux apprécier les oeuvres qui vous y attendent. <span class="icon__bold">Commentez, likez, abonnez-vous</span> aux artistes qui vous plaisent, et <span class="icon__bold">gagnez vous même en visibilité !</span></p>
-                </div>
+            <div class="icon__container">
+                <p class="icon__txt"><span class="icon__bold">Exposez</span> vos oeuvres dans votre propre <span
+                        class="icon__bold">salle de musée</span> entièrement <span
+                        class="icon__bold">personnalisable</span> : jouez avec les meubles, les fonds, les
+                    décorations
+                    ou encore les familiers pour créer une ambiance propre à vous et <span class="icon__bold">vous
+                        démarquer des autres artistes&nbsp!</span></p>
+                <p class="icon__txt">Achetez des oeuvres dans la <span class="icon__bold">boutique
+                        communautaire</span>
+                    : exposez les dans votre salle de musée, ou <span class="icon__bold">vendez</span> vos
+                    propres
+                    créations pour générer un <span class="icon__bold">profit</span> qui vous permettra d’<span
+                        class="icon__bold">acheter des items ou d’autres oeuvres</span>, profitez-en !</p>
+                <p class="icon__txt"><span class="icon__bold">Découvrez</span> une infinité de <span
+                        class="icon__bold">musées</span> créés par la communauté ; <span
+                        class="icon__bold">voyagez</span> dans des ambiances et des environnements différents
+                    pour mieux
+                    apprécier les oeuvres qui vous y attendent. <span class="icon__bold">Commentez, likez,
+                        abonnez-vous</span> aux artistes qui vous plaisent, et <span class="icon__bold">gagnez
+                        vous même
+                        en visibilité !</span></p>
+            </div>
         </div>
 
         <div class="button"><a href="connect.html">Rejoindre</a></div>
 
-        <div class="card card__alt">
-            <div class="card__text card__left">
-                <h2>Museum</h2>
-                <p>Sentez-vous libre de créer votre propre pièce de musée grâce à vos oeuvres et items de personnalisation. Glissez simplement les éléments où vous le désirez.</p>
-            </div>
-            <img class="card__right ill4" src="public/icon/Espace-perso.svg" alt="image de l'espace de personnalisation">
-        </div>
 
-        <div class="card card__alt">
-            <img class="card__left ill5" src="public/icon/Shop-pres.svg" alt="illustration d'un musée">
-            <div class="card__text card__right">
-                <h2>Boutique</h2>
-                <p>Obtenez de nouvelles oeuvres et items dans la boutique officielle.</p>
-            </div>
-        </div>
 
-        <div class="logo-xl"><img src="public/icon/Logo-xl.svg" alt="Logo ArtVault"></div>
-    
-        <div class="button"><a href="connect.html">Rejoindre</a></div>
+        <div class="logo-xl"><img src="public/icon/Logo-xl.svg" alt="Logo"></div>
+
     </main>
 
     <footer class="footer">
@@ -113,7 +135,7 @@
                 <li><a class="footer__link" href="mentions.html">Mentions légales</a></li>
             </ul>
 
-            <h3 class="footer__title">ArtVault</h3>
+            <h3 class="footer__title">Muse'Aic</h3>
 
             <ul class="footer__list listUnstyled">
                 <li><a href="#"><img src="public/icon/facebook.svg" alt="Logo Facebook"></a></li>
@@ -123,4 +145,5 @@
         </div>
     </footer>
 </body>
+
 </html>

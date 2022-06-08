@@ -4,7 +4,7 @@
     left: 0;
     width: 100%;
     min-height: 7vh;
-    background-color: var(--white);
+    background-color: #111827;
     display: flex;
     justify-content: space-between;
     font-size: var(--ps);
@@ -32,13 +32,13 @@
 
 .menu__title {
     font-weight: 300;
-    color: var(--grey--4);
+    color: white;
 }
 
 .menu__list li:nth-child(3) {
     width: 12.7vw;
     height: 6vh;
-    background-color: var(--red--3);
+    background-color: #6827D0;
     z-index: 2;
     display: flex;
     margin-top: auto;

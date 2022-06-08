@@ -1,7 +1,7 @@
 .button {
     width: 15.6vw;
     height: 7.4vh;
-    background-color: var(--red--3);
+    background-color: #6827D0;
     margin-top: 15vh;
     z-index: 2;
     display: flex;

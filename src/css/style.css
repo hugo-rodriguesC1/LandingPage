@@ -1,6 +1,9 @@
 /*Fonts*/
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;900&display=swap');
+
+
+
 /*Utils*/
 
 @import url(utils/variables.css);
@@ -31,3 +34,8 @@
 @import url(components/button.css);
 @import url(components/concepteurs.css);
 @import url(components/log.css);
+
+@font-face {
+    font-family: Movement;
+    src: url(../fonts/Movement.ttf);
+}
